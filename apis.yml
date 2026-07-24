@@ -1,7 +1,25 @@
 aid: codementor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codementor.png
 name: CodeMentor
-description: CodeMentor is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: CodeMentor (codementor.io) is an on-demand marketplace that connects software
+  developers with vetted expert mentors for live 1:1 coding help, code review, debugging,
+  pair programming, and longer-term freelance engagements across dozens of programming
+  languages and frameworks. Part of the Arc / CodeMentor group, it serves individual learners
+  seeking real-time mentorship as well as companies hiring vetted remote developers. As of
+  this profile CodeMentor exposes no public developer API, SDKs, or OpenAPI surface; this
+  record was surfaced as a Techstars portfolio company and enriched with verified identity
+  and domain-security signals.
 url: https://raw.githubusercontent.com/api-evangelist/codementor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Developer Mentorship
+- Freelance Marketplace
+- Software Development
+- Hiring
+- Learning
+- Community
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +46,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://codementor.io/
+  url: https://www.codementor.io/
+- type: Blog
+  url: https://www.codementor.io/blog
+- type: Support
+  url: https://support.codementor.io
+- type: TermsOfService
+  url: https://www.codementor.io/terms
+- type: PrivacyPolicy
+  url: https://www.codementor.io/privacy
+- type: DomainSecurity
+  url: security/codementor-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
